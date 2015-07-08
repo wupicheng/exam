@@ -10,17 +10,11 @@
 
     <package name="user"  namespace="/user" extends="struts-default">
 
-        <action name="loginAction" class="com.stu.login.action.LoginAction" >
-               <result name="login_success">/index.jsp</result>
+        <action name="loginAction" class="com.wpc.base.login.action.LoginAction" >
+               <result name="loginsuccess">/index.jsp</result>
                <result name="sign-in">/login/sign-in.jsp</result>
         </action>
-        <action name="studentAction" class="com.stu.stu.action.StudentAction" converter="">
-            <result name="queryAllStudent">/index.jsp</result>
-            <result name="addStudent">/index.jsp</result>
-            <result name="deleteStudent">/index.jsp</result>
-            <result name="editStudent">/index.jsp</result>
 
-        </action>
     </package>
 
 </struts>

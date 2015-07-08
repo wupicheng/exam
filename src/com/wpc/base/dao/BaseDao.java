@@ -29,11 +29,12 @@ public class BaseDao {
      * @throws java.sql.SQLException
      */
     public boolean baseCUD(Connection connection,SQLModel sqlModel) throws SQLException {
-
-        PreparedStatement preparedStatement = connection.prepareStatement(sqlModel.getSqlstr());
+        PreparedStatement preparedStatement = new LoggableStatement(connection, sqlModel.getSqlstr());
+        //PreparedStatement preparedStatement = connection.prepareStatement(sqlModel.getSqlstr());
         for(int i=0;i<sqlModel.getParameters().size();i++){
             preparedStatement.setObject(i+1, sqlModel.getParameters().get(i));
         }
+        System.out.println("Executing SQL:　" + ((LoggableStatement) preparedStatement).getQueryString());
       return   preparedStatement.execute();
     }
 
@@ -44,8 +45,9 @@ public class BaseDao {
      * @throws java.sql.SQLException
      */
     public List query(SQLModel sqlModel, Object o,Connection connection) throws SQLException, IllegalAccessException, InstantiationException {
+        PreparedStatement preparedStatement = new LoggableStatement(connection, sqlModel.getSqlstr());
 
-        PreparedStatement preparedStatement = connection.prepareStatement(sqlModel.getSqlstr());
+        //PreparedStatement preparedStatement = connection.prepareStatement(sqlModel.getSqlstr());
         ArrayList arrayList = new ArrayList();
         for (int i = 0; i < sqlModel.getParameters().size(); i++) {
             preparedStatement.setObject(i + 1, sqlModel.getParameters().get(i));
@@ -53,6 +55,7 @@ public class BaseDao {
         Class claze = o.getClass();
         Field[] fileds = claze.getDeclaredFields();
         ResultSet resultSet = preparedStatement.executeQuery();
+        System.out.println("Executing SQL:　" + ((LoggableStatement) preparedStatement).getQueryString());
         int columncount=   resultSet.getMetaData().getColumnCount();
         while (resultSet.next()) {
             Object o2 = claze.newInstance();

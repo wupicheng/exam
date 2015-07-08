@@ -5,7 +5,9 @@ package com.wpc.base.entity;
  * User: wupicheng
  * Date: 15-5-8
  * Time: 下午3:45
- * To change this template use File | Settings | File Templates.
+ * 此对象是所有系统的基础对象
+ * 对应于 系统账户，区别于业务账户
+ *
  */
 public class User {
     int user_id;
