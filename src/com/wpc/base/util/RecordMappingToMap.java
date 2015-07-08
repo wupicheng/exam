@@ -2,6 +2,7 @@ package com.wpc.base.util;
 
 
 
+import com.wpc.base.dao.LoggableStatement;
 import com.wpc.base.db.DBManager;
 import com.wpc.base.model.SQLModel;
 
@@ -240,7 +241,9 @@ public class RecordMappingToMap {
     public List query(SQLModel sqlModel, int timeout, Connection con) throws SQLException {
         List records = new ArrayList();
         try {
-            stmt = con.prepareStatement(sqlModel.getSqlstr());
+            stmt = new LoggableStatement(con, sqlModel.getSqlstr());
+
+            //stmt = con.prepareStatement(sqlModel.getSqlstr());
             for (int i = 0; i < sqlModel.getParameters().size(); i++) {
                 stmt.setObject(i + 1, sqlModel.getParameters().get(i));
             }
@@ -248,6 +251,8 @@ public class RecordMappingToMap {
                 stmt.setQueryTimeout(timeout);
             }
             rs = stmt.executeQuery();
+            System.out.println("Executing SQL:　" + ((LoggableStatement) stmt).getQueryString());
+
             rsmd = rs.getMetaData();
             int fieldCount = rsmd.getColumnCount();
             while (rs.next()) {
@@ -279,12 +284,16 @@ public class RecordMappingToMap {
     public List query(int timeout, Connection con,SQLModel sqlModel) throws SQLException {
         List records = new ArrayList();
         try {
-            stmt = con.prepareStatement(sqlModel.getSqlstr());
+            stmt = new LoggableStatement(con, sqlModel.getSqlstr());
+
+            //stmt = con.prepareStatement(sqlModel.getSqlstr());
 
             if (timeout > 0) {
                 stmt.setQueryTimeout(timeout);
             }
             rs = stmt.executeQuery();
+            System.out.println("Executing SQL:　" + ((LoggableStatement) stmt).getQueryString());
+
             rsmd = rs.getMetaData();
             int fieldCount = rsmd.getColumnCount();
             while (rs.next()) {
