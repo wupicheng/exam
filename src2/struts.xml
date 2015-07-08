@@ -14,7 +14,10 @@
                <result name="loginsuccess">/index.jsp</result>
                <result name="sign-in">/login/sign-in.jsp</result>
         </action>
-
+        <action name="userAction" class="com.wpc.base.system.action.UserAction" >
+            <result name="queryall">/index.jsp</result>
+            <result name="sign-in">/login/sign-in.jsp</result>
+        </action>
     </package>
 
 </struts>
