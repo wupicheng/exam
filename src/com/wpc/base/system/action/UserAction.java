@@ -3,6 +3,7 @@ package com.wpc.base.system.action;
 import com.wpc.base.db.DBManager;
 import com.wpc.base.entity.User;
 import com.wpc.base.system.dao.UserDao;
+import com.wpc.base.util.PageObject;
 import org.apache.struts2.interceptor.ServletRequestAware;
 import org.apache.struts2.util.ServletContextAware;
 
@@ -20,45 +21,79 @@ import java.util.List;
  * Time: 下午5:01
  * To change this template use File | Settings | File Templates.
  */
-public class UserAction implements ServletRequestAware{
+public class UserAction implements ServletRequestAware {
     HttpServletRequest request;
     HttpSession session;
-    User user= new User();
-    UserDao userDao=new UserDao();
-    public String queryAllUser(){
-        Connection connection= null;
-        session=request.getSession();
+    User user = new User();
+    UserDao userDao = new UserDao();
+
+    /**
+     * 分页预处理
+     *
+     * @return
+     */
+    public PageObject prePageObject() {
+        int currentpagenum = 0;
+        int everypagenum = 0;
+        String current_page_num = request.getParameter("currentPageNum");
+        String every_page_num = request.getParameter("everyPageNum");
+        if (current_page_num == null) {
+            currentpagenum = 1;
+        } else {
+            currentpagenum = Integer.parseInt(current_page_num);
+        }
+        if (every_page_num == null) {
+            everypagenum = 5;
+        } else {
+            everypagenum = Integer.parseInt(every_page_num);
+        }
+        PageObject pageObject = new PageObject();
+        pageObject.setCurrentPageNum(currentpagenum);
+        pageObject.setEveryPageNum(everypagenum);
+        return pageObject;
+    }
+
+    public String queryAllUser() {
+        Connection connection = null;
+        session = request.getSession();
+       PageObject pageObjectPre=  prePageObject();
         try {
             connection = DBManager.getConnection();
-            List users=  userDao.getAllUserDao(connection);
-            request.setAttribute("users",users);
-            session.setAttribute("content_div","/user/users.jsp");
+
+            PageObject pageObject = new PageObject(userDao.countAllUserDao(connection), pageObjectPre.getEveryPageNum(), pageObjectPre.getCurrentPageNum());
+            List users = userDao.getAllUserDao(connection, pageObject);
+            request.setAttribute("users", users);
+            request.setAttribute("pageObject", pageObject);
+            session.setAttribute("content_div", "/user/users.jsp");
         } catch (SQLException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         } finally {
-            DBManager.closeResourse(null,null,connection);
+            DBManager.closeResourse(null, null, connection);
         }
 
         return "queryall";
     }
 
-    public String deleteUser(){
+    public String deleteUser() {
         System.out.println("delete");
-        Connection connection= null;
-        String user_id=  request.getParameter("user_id");
-        session=request.getSession();
+        Connection connection = null;
+        String user_id = request.getParameter("user_id");
+        session = request.getSession();
+        PageObject pageObjectPre= prePageObject();
         try {
             connection = DBManager.getConnection();
-            if(user_id!=null){
-                userDao.deleteUserByIdDao(connection,user_id);
+            if (user_id != null) {
+                userDao.deleteUserByIdDao(connection, user_id);
             }
-            List users=  userDao.getAllUserDao(connection);
-            request.setAttribute("users",users);
-            session.setAttribute("content_div","/user/users.jsp");
+            PageObject pageObject = new PageObject(userDao.countAllUserDao(connection), pageObjectPre.getEveryPageNum(), pageObjectPre.getCurrentPageNum());
+
+            List users = userDao.getAllUserDao(connection, pageObject);
+            request.setAttribute("users", users);
+            session.setAttribute("content_div", "/user/users.jsp");
         } catch (SQLException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         } finally {
-            DBManager.closeResourse(null,null,connection);
+            DBManager.closeResourse(null, null, connection);
         }
         return "queryall";
     }
@@ -72,9 +107,8 @@ public class UserAction implements ServletRequestAware{
     }
 
 
-
     @Override
     public void setServletRequest(HttpServletRequest httpServletRequest) {
-          this.request=httpServletRequest;
+        this.request = httpServletRequest;
     }
 }

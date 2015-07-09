@@ -60,13 +60,13 @@
     </table>
 
     <ul class="pagination">
-        <li><a href="/user/studentAction!queryAll.do?currentPageNum=1">&laquo;</a></li>
+        <li><a href="/user/userAction!queryAllUser.do?currentPageNum=1">&laquo;</a></li>
         <c:forEach begin="1" end="${pageObject.totalPageNum}" var="num">
-            <li><a href="/user/studentAction!queryAll.do?currentPageNum=${num}">${num}</a></li>
+            <li><a href="/user/userAction!queryAllUser.do?currentPageNum=${num}">${num}</a></li>
         </c:forEach>
 
 
-        <li><a href="/user/studentAction!queryAll.do?currentPageNum=${pageObject.totalPageNum}">&raquo;</a></li>
+        <li><a href="/user/userAction!queryAllUser.do?currentPageNum=${pageObject.totalPageNum}">&raquo;</a></li>
     </ul>
 
     <div class="modal small fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

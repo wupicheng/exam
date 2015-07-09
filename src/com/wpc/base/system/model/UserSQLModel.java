@@ -2,6 +2,7 @@ package com.wpc.base.system.model;
 
 import com.wpc.base.entity.User;
 import com.wpc.base.model.SQLModel;
+import com.wpc.base.util.PageObject;
 
 import java.util.ArrayList;
 
@@ -21,6 +22,32 @@ public class UserSQLModel {
         String sqlStr= " select * from exam_user ";
 
         sqlModel.setSqlstr(sqlStr);
+        sqlModel.setParameters(parameters);
+
+        return sqlModel;
+    }
+    public SQLModel queryPageUserSQLModel(PageObject pageObject){
+        SQLModel sqlModel=new SQLModel();
+        ArrayList parameters=new ArrayList();
+
+        String sqlStr= " select * from exam_user limit ?,? ";
+
+        sqlModel.setSqlstr(sqlStr);
+        parameters.add(pageObject.getFromRecord()-1);
+        parameters.add(pageObject.getToRecord());
+
+        sqlModel.setParameters(parameters);
+
+        return sqlModel;
+    }
+    public SQLModel queryCountUserSQLModel(){
+        SQLModel sqlModel=new SQLModel();
+        ArrayList parameters=new ArrayList();
+
+        String sqlStr= " select count(1) count from exam_user ";
+
+        sqlModel.setSqlstr(sqlStr);
+
         sqlModel.setParameters(parameters);
 
         return sqlModel;
