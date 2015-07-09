@@ -1,6 +1,7 @@
 package com.wpc.base.system.dao;
 
 import com.wpc.base.dao.BaseDao;
+import com.wpc.base.entity.User;
 import com.wpc.base.system.model.UserSQLModel;
 
 import java.sql.Connection;
@@ -21,6 +22,11 @@ public class UserDao {
     public List  getAllUserDao(Connection connection) throws SQLException {
 
         return  baseDao.query(userSQLModel.queryAllUserSQLModel(),connection);
+
+    }
+    public boolean deleteUserByIdDao(Connection connection, String userid) throws SQLException {
+
+        return  baseDao.baseCUD(connection,userSQLModel.deleteUserSQLModel(userid));
 
     }
 

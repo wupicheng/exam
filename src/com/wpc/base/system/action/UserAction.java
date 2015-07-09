@@ -42,6 +42,27 @@ public class UserAction implements ServletRequestAware{
         return "queryall";
     }
 
+    public String deleteUser(){
+        System.out.println("delete");
+        Connection connection= null;
+        String user_id=  request.getParameter("user_id");
+        session=request.getSession();
+        try {
+            connection = DBManager.getConnection();
+            if(user_id!=null){
+                userDao.deleteUserByIdDao(connection,user_id);
+            }
+            List users=  userDao.getAllUserDao(connection);
+            request.setAttribute("users",users);
+            session.setAttribute("content_div","/user/users.jsp");
+        } catch (SQLException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        } finally {
+            DBManager.closeResourse(null,null,connection);
+        }
+        return "queryall";
+    }
+
     public User getUser() {
         return user;
     }

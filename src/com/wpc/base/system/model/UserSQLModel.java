@@ -25,4 +25,17 @@ public class UserSQLModel {
 
         return sqlModel;
     }
+
+    public SQLModel deleteUserSQLModel(String user_id){
+        SQLModel sqlModel=new SQLModel();
+        ArrayList parameters=new ArrayList();
+
+        String sqlStr= " delete from exam_user where user_id=? ";
+        parameters.add(user_id);
+
+        sqlModel.setSqlstr(sqlStr);
+        sqlModel.setParameters(parameters);
+
+        return sqlModel;
+    }
 }
