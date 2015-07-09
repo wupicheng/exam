@@ -19,7 +19,7 @@
 <div class="main-content">
 
     <div class="btn-toolbar list-toolbar">
-        <button class="btn btn-primary"><i class="fa fa-plus"></i> 添加用户</button>
+        <a class="btn btn-primary" href="/user/userAction!addUser.do"><i class="fa fa-plus"></i> 添加用户</a>
         <button class="btn btn-default">Import</button>
         <button class="btn btn-default">Export</button>
         <div class="btn-group">

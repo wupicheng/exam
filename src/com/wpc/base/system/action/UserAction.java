@@ -27,6 +27,12 @@ public class UserAction implements ServletRequestAware {
     User user = new User();
     UserDao userDao = new UserDao();
 
+    public String addUser(){
+        session=request.getSession();
+        session.setAttribute("content_div", "/user/newUser.jsp");
+        return "index";
+    }
+
     /**
      * 分页预处理
      *
@@ -53,6 +59,10 @@ public class UserAction implements ServletRequestAware {
         return pageObject;
     }
 
+    /**
+     * 分页查询所有用户
+     * @return
+     */
     public String queryAllUser() {
         Connection connection = null;
         session = request.getSession();
@@ -71,9 +81,13 @@ public class UserAction implements ServletRequestAware {
             DBManager.closeResourse(null, null, connection);
         }
 
-        return "queryall";
+        return "index";
     }
 
+    /**
+     * user_id 根据id删除单个用户
+     * @return
+     */
     public String deleteUser() {
         System.out.println("delete");
         Connection connection = null;
@@ -95,7 +109,7 @@ public class UserAction implements ServletRequestAware {
         } finally {
             DBManager.closeResourse(null, null, connection);
         }
-        return "queryall";
+        return "index";
     }
 
     public User getUser() {
