@@ -37,7 +37,7 @@ public class UserAction implements ServletRequestAware {
         int everypagenum = 0;
         String current_page_num = request.getParameter("currentPageNum");
         String every_page_num = request.getParameter("everyPageNum");
-        if (current_page_num == null) {
+        if (current_page_num == null||current_page_num.equals("")) {
             currentpagenum = 1;
         } else {
             currentpagenum = Integer.parseInt(current_page_num);
