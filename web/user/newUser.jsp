@@ -2,7 +2,7 @@
 
 <div class="header">
 
-    <h1 class="page-title">Edit User</h1>
+    <h1 class="page-title">新建用户</h1>
     <ul class="breadcrumb">
         <li><a href="index.html">Home</a></li>
         <li><a href="users.html">Users</a></li>
@@ -12,8 +12,8 @@
 <div class="main-content">
 
     <ul class="nav nav-tabs">
-        <li class="active"><a href="#home" data-toggle="tab">Profile</a></li>
-        <li><a href="#profile" data-toggle="tab">Password</a></li>
+        <li class="active"><a href="#home" data-toggle="tab">基本信息</a></li>
+        <li><a href="#profile" data-toggle="tab">详细信息</a></li>
     </ul>
 
     <div class="row">
@@ -22,62 +22,129 @@
 
             <div id="myTabContent" class="tab-content">
                 <div class="tab-pane active in" id="home">
-                    <form id="tab"  class="form-horizontal">
 
+                    <div class="panel panel-default">
 
-
-                        <div class="form-group">
-                            <label class="col-sm-4 control-label">用户名</label>
-
-                            <div class="col-sm-8">
-                                <input type="text" name="student_name"  class="form-control"  placeholder="请输入姓">
-                            </div>
+                        <div class="panel-heading">
+                            <h3 class="panel-title">账户信息</h3>
                         </div>
-                        <div class="form-group">
-                            <label class="col-sm-4 control-label">电话</label>
-                            <div class="col-sm-8">
-                            <input type="text" name="student_phone_num" value="John" class="form-control">
-                            </div>
+                        <div class="panel-body">
+                            <form id="tab" class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="col-sm-4 control-label">用户名</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" name="student_name" class="form-control"
+                                               placeholder="请输入账户名">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-4 control-label">电话</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" name="student_phone_num" class="form-control"
+                                               placeholder="请输入账户名">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-4 control-label">地址</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" name="addr" class="form-control" placeholder="请输入账户名">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-4 control-label">出生日期</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" name="student_birthday" class="form-control"
+                                               placeholder="请输入账户名">
+                                    </div>
+                                </div>
+
+                                <div  class="col-sm-2 col-sm-push-8">
+                                    <div class="btn-toolbar list-toolbar">
+                                        <button class="btn btn-primary "><i class="fa fa-save"></i>保存</button>
+                                        <%--<a href="#myModal" data-toggle="modal" class="btn btn-danger">Delete</a>--%>
+                                    </div>
+                                </div>
+
+                            </form>
                         </div>
-                        <div class="form-group">
-                            <label class="col-sm-4 control-label">地址</label>
-                            <div class="col-sm-8">
-                            <input type="text" name="" value="Smith" class="form-control">
-                            </div>
-                            </div>
-                        <div class="form-group">
-                            <label class="col-sm-4 control-label">出生日期</label>
-                            <div class="col-sm-8">
-                            <input type="text" name="student_birthday" value="Smith" class="form-control">
-                            </div>
-                            </div>
-                        <div class="form-group">
-                            <label class="col-sm-4 control-label">Email</label>
-                            <div class="col-sm-8">
-                            <input type="text" name="student_email" value="jsmith@yourcompany.com" class="form-control">
-                            </div>
-                        </div>
-                    </form>
+                    </div>
                 </div>
 
                 <div class="tab-pane fade" id="profile">
+                    <div class="panel panel-default">
 
-                    <form id="tab2">
-                        <div class="form-group">
-                            <label>New Password</label>
-                            <input type="password" class="form-control">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">学生信息</h3>
                         </div>
-                        <div>
-                            <button class="btn btn-primary">Update</button>
+                        <div class="panel-body">
+                            <form id="tab2" class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="col-sm-4 control-label">学生姓名</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" name="student_name" class="form-control"
+                                               placeholder="请输入账户名">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-4 control-label">班级</label>
+
+                                        <div class="col-sm-8">
+                                            <select class="form-control">
+                                                <option>1</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-4 control-label">地址</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" name="addr" class="form-control" placeholder="请输入账户名">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-4 control-label">出生日期</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" name="student_birthday" class="form-control"
+                                               placeholder="请输入账户名">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-4 control-label">Email</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" name="student_email" class="form-control"
+                                               placeholder="xx@xx.com">
+                                    </div>
+                                </div>
+                                <div  class="col-sm-2 col-sm-push-8">
+                                    <div class="btn-toolbar list-toolbar">
+                                        <button class="btn btn-primary "><i class="fa fa-save"></i>保存</button>
+                                        <%--<a href="#myModal" data-toggle="modal" class="btn btn-danger">Delete</a>--%>
+                                    </div>
+                                </div>
+
+                            </form>
                         </div>
-                    </form>
+                    </div>
+
+
+
+
                 </div>
             </div>
 
-            <div class="btn-toolbar list-toolbar">
-                <button class="btn btn-primary "><i class="fa fa-save"></i> Save</button>
-                <%--<a href="#myModal" data-toggle="modal" class="btn btn-danger">Delete</a>--%>
-            </div>
+
         </div>
     </div>
 

@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/user/newUser.jsp" afterPath="$PROJECT_DIR$/web/user/newUser.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="exam.iws" />
@@ -14,7 +15,7 @@
     <file path="/index.jsp" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436272227308" ignored="false" />
     <file path="/fragment.java" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436343081466" ignored="false" />
     <file path="/web.xml" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436272142540" ignored="false" />
-    <file path="/Dummy.txt" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436435992914" ignored="false" />
+    <file path="/Dummy.txt" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436511947090" ignored="false" />
     <file path="$PROJECT_DIR$/../untitled4/untitled4.iml" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436262670443" ignored="false" />
     <file path="$PROJECT_DIR$/../untitled4/web/index.jsp" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436262683914" ignored="false" />
     <file path="$PROJECT_DIR$/../exam1/exam1.iml" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436271946246" ignored="false" />
@@ -32,7 +33,9 @@
     <file path="/UserSQLModel.java" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436431997892" ignored="false" />
     <file path="/UserDao.java" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436432722583" ignored="false" />
     <file path="/users.jsp" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436434008124" ignored="false" />
-    <file path="/newUser.jsp" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436434970283" ignored="false" />
+    <file path="/newUser.jsp" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436494359399" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/教材/untitled/静态页面技术专题/HTML/readme.txt" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436498881476" ignored="false" />
+    <file path="/readme.txt" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436498881009" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +50,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -84,6 +86,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -92,7 +95,17 @@
     <favorites_list name="exam" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="newUser.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/user/newUser.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="102" column="81" selection-start="4875" selection-end="4875" vertical-scroll-proportion="0.05263158">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -407,7 +420,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -450,6 +462,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -460,6 +490,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -478,9 +509,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -513,6 +545,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -539,19 +584,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -753,38 +785,42 @@
       <created>1436435995565</created>
       <updated>1436435995565</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="0.06实现添加用户页面布局">
+      <created>1436436127580</created>
+      <updated>1436436127580</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19327731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41736695" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5154062" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17226891" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41736695" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6598726" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6134454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49297574" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32568148" sideWeight="0.8067227" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2754663" sideWeight="0.5826331" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6134454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -866,50 +902,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wpc/base/login/action/LoginAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="38" selection-start="455" selection-end="455" vertical-scroll-proportion="-0.034">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="15" column="38" selection-start="455" selection-end="455" vertical-scroll-proportion="-0.034" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wpc/base/util/RecordMappingToMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="312" column="23" selection-start="11653" selection-end="11653" vertical-scroll-proportion="14.8192215">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="312" column="23" selection-start="11653" selection-end="11653" vertical-scroll-proportion="14.8192215" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wpc/base/dao/BaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="7" selection-start="2013" selection-end="2119" vertical-scroll-proportion="0.3020595">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="58" column="7" selection-start="2013" selection-end="2119" vertical-scroll-proportion="0.3020595" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wpc/base/login/model/LoginSQLModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="5" selection-start="322" selection-end="778" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="28" column="5" selection-start="322" selection-end="778" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login/sign-in.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="54" selection-start="3591" selection-end="3591" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="97" column="54" selection-start="3591" selection-end="3591" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wpc/base/db/DBManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="39" selection-start="2140" selection-end="2140" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="60" column="39" selection-start="2140" selection-end="2140" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
@@ -921,23 +939,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wpc/base/util/PageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="83" selection-start="576" selection-end="576" vertical-scroll-proportion="0.3022388">
-          <folding />
-        </state>
+        <state line="24" column="83" selection-start="576" selection-end="576" vertical-scroll-proportion="0.3022388" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wpc/base/system/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="74" selection-start="814" selection-end="814" vertical-scroll-proportion="0.431694">
-          <folding />
-        </state>
+        <state line="26" column="74" selection-start="814" selection-end="814" vertical-scroll-proportion="0.431694" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wpc/base/system/model/UserSQLModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="49" selection-start="1370" selection-end="1370" vertical-scroll-proportion="0.1693989">
-          <folding />
-        </state>
+        <state line="50" column="49" selection-start="1370" selection-end="1370" vertical-scroll-proportion="0.1693989" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/user/student.jsp">
@@ -949,18 +961,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src2/struts.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="798" selection-end="803" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="17" column="31" selection-start="798" selection-end="803" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wpc/base/system/action/UserAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="25" selection-start="850" selection-end="857" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="29" column="25" selection-start="850" selection-end="857" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/user/users.jsp">
@@ -972,7 +978,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/user/newUser.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="180" column="56" selection-start="6757" selection-end="6757" vertical-scroll-proportion="5.2514396">
+        <state line="102" column="81" selection-start="4875" selection-end="4875" vertical-scroll-proportion="0.05263158">
           <folding />
         </state>
       </provider>
