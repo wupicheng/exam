@@ -19,6 +19,11 @@
             <result name="sign-in">/login/sign-in.jsp</result>
 
         </action>
+        <action name="menuAction" class="com.wpc.base.system.action.MenuAction" >
+            <result name="index">/index.jsp</result>
+
+
+        </action>
     </package>
 
 </struts>

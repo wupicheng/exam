@@ -7,6 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/bootstraptree/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wpc/base/system/action/MenuAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/bootstraptree/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/bootstraptree/js/bootstraptree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/bootstraptree/css/bootstraptreestyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/bootstraptree/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/bootstraptree/js/jquery-1.7.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/user/menus.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wpc/base/login/model/MenuSQLModel.java" afterPath="$PROJECT_DIR$/src/com/wpc/base/login/model/MenuSQLModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src2/struts.xml" afterPath="$PROJECT_DIR$/src2/struts.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="exam.iws" />
@@ -14,18 +24,18 @@
     <file path="/index.jsp" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436272227308" ignored="false" />
     <file path="/fragment.java" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436343081466" ignored="false" />
     <file path="/web.xml" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436272142540" ignored="false" />
-    <file path="/Dummy.txt" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436521031051" ignored="false" />
+    <file path="/Dummy.txt" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436769770331" ignored="false" />
     <file path="$PROJECT_DIR$/../untitled4/untitled4.iml" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436262670443" ignored="false" />
     <file path="$PROJECT_DIR$/../untitled4/web/index.jsp" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436262683914" ignored="false" />
     <file path="$PROJECT_DIR$/../exam1/exam1.iml" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436271946246" ignored="false" />
     <file path="$PROJECT_DIR$/../exam1/web/WEB-INF/web.xml" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436272142540" ignored="false" />
     <file path="$PROJECT_DIR$/../exam1/web/index.jsp" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436272238419" ignored="false" />
     <file path="$PROJECT_DIR$/../exam1/.idea/workspace.xml" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436272816598" ignored="false" />
-    <file path="/struts.xml" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436434215571" ignored="false" />
+    <file path="/struts.xml" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436770875053" ignored="false" />
     <file path="/LoginAction.java" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436340979802" ignored="false" />
     <file path="/User.java" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436313707655" ignored="false" />
     <file path="/LoginSQLModel.java" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436315209932" ignored="false" />
-    <file path="/MenuSQLModel.java" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436327640460" ignored="false" />
+    <file path="/MenuSQLModel.java" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436770345581" ignored="false" />
     <file path="/MenuDao.java" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436338280360" ignored="false" />
     <file path="/LoginDao.java" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436338699905" ignored="false" />
     <file path="/UserAction.java" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436434159881" ignored="false" />
@@ -35,6 +45,9 @@
     <file path="/newUser.jsp" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436494359399" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/教材/untitled/静态页面技术专题/HTML/readme.txt" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436498881476" ignored="false" />
     <file path="/readme.txt" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436498881009" ignored="false" />
+    <file path="/MenuAction.java" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436770845830" ignored="false" />
+    <file path="/menus.jsp" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436775111295" ignored="false" />
+    <file path="/bootstraptreestyle.css" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436772407160" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +62,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -86,6 +98,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -95,28 +108,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="newUser.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/user/newUser.jsp">
+      <file leaf-file-name="MenuAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wpc/base/system/action/MenuAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="105" selection-start="5717" selection-end="5717" vertical-scroll-proportion="0.0">
+            <state line="20" column="56" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menus.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/user/menus.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="44" selection-start="947" selection-end="947" vertical-scroll-proportion="0.58505154">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserSQLModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wpc/base/system/model/UserSQLModel.java">
+      <file leaf-file-name="bootstraptree.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/public/bootstraptree/js/bootstraptree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="60" selection-start="1648" selection-end="1648" vertical-scroll-proportion="0.0">
+            <state line="11" column="74" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuSQLModel.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/wpc/base/login/model/MenuSQLModel.java">
+      <file leaf-file-name="student.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/user/student.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="50" selection-start="1570" selection-end="1570" vertical-scroll-proportion="1.9240507">
+            <state line="19" column="34" selection-start="636" selection-end="636" vertical-scroll-proportion="-12.892858">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="students.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/user/students.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="145" column="114" selection-start="5726" selection-end="5745" vertical-scroll-proportion="-12.714286">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/public/bootstraptree/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="39" selection-start="1573" selection-end="1573" vertical-scroll-proportion="-4.714286">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="struts.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src2/struts.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wpc/base/system/action/UserAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="70" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -140,22 +209,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/wpc/base/login/model/LoginSQLModel.java" />
-        <option value="$PROJECT_DIR$/src/com/wpc/base/login/model/MenuSQLModel.java" />
-        <option value="$PROJECT_DIR$/src/com/wpc/base/login/dao/LoginDao.java" />
-        <option value="$PROJECT_DIR$/src/com/wpc/base/login/dao/MenuDao.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/com/wpc/base/dao/LoggableStatement.java" />
         <option value="$PROJECT_DIR$/src/com/wpc/base/dao/BaseDao.java" />
         <option value="$PROJECT_DIR$/src/com/wpc/base/login/action/LoginAction.java" />
         <option value="$PROJECT_DIR$/src/com/wpc/base/util/RecordMappingToMap.java" />
         <option value="$PROJECT_DIR$/src/com/wpc/base/db/DBManager.java" />
         <option value="$PROJECT_DIR$/src/com/wpc/base/system/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/com/wpc/base/system/model/UserSQLModel.java" />
-        <option value="$PROJECT_DIR$/src2/struts.xml" />
         <option value="$PROJECT_DIR$/src/com/wpc/base/system/action/UserAction.java" />
         <option value="$PROJECT_DIR$/web/user/users.jsp" />
         <option value="$PROJECT_DIR$/web/user/newUser.jsp" />
+        <option value="$PROJECT_DIR$/src/com/wpc/base/login/model/MenuSQLModel.java" />
+        <option value="$PROJECT_DIR$/src2/struts.xml" />
+        <option value="$PROJECT_DIR$/src/com/wpc/base/system/action/MenuAction.java" />
+        <option value="$PROJECT_DIR$/web/public/bootstraptree/index.html" />
+        <option value="$PROJECT_DIR$/web/public/bootstraptree/js/bootstraptree.js" />
+        <option value="$PROJECT_DIR$/web/public/bootstraptree/css/bootstraptreestyle.css" />
+        <option value="$PROJECT_DIR$/web/user/menus.jsp" />
       </list>
     </option>
   </component>
@@ -496,6 +565,138 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstraptree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstraptree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstraptree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstraptree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -577,6 +778,10 @@
               <option name="myItemId" value="system" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -623,6 +828,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -650,8 +877,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -669,11 +896,11 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -684,11 +911,11 @@
       <recent name="com.wpc.base.db" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\intelljideaproject\exam\web\public\bootstraptree" />
       <recent name="D:\intelljideaproject\exam\web\user" />
       <recent name="C:\Users\wupicheng\IdeaProjects\exam\web\user" />
       <recent name="C:\Users\wupicheng\IdeaProjects\exam\web" />
       <recent name="C:\Users\wupicheng\IdeaProjects\exam\src2" />
-      <recent name="C:\Users\wupicheng\IdeaProjects\exam\web\WEB-INF" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 6.01-exam">
@@ -704,6 +931,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -732,19 +972,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -954,24 +1181,29 @@
       <created>1436511975587</created>
       <updated>1436511975587</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="0.06实现添加用户页面布局">
+      <created>1436522507588</created>
+      <updated>1436522507588</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4089636" sideWeight="0.2682927" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36134455" sideWeight="0.2682927" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6092437" sideWeight="0.57101864" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30952382" sideWeight="0.57101864" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42436975" sideWeight="0.42898133" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6598726" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2857143" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -979,13 +1211,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49297574" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33213773" sideWeight="0.59103644" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19225252" sideWeight="0.6904762" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6134454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1060,94 +1291,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/wpc/base/login/action/LoginAction.java">
+    <entry file="file://$PROJECT_DIR$/web/user/newUser.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="38" selection-start="455" selection-end="455" vertical-scroll-proportion="-0.034" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wpc/base/util/RecordMappingToMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="312" column="23" selection-start="11653" selection-end="11653" vertical-scroll-proportion="14.8192215" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wpc/base/dao/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="7" selection-start="2013" selection-end="2119" vertical-scroll-proportion="0.3020595" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wpc/base/login/model/LoginSQLModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="5" selection-start="322" selection-end="778" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login/sign-in.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="54" selection-start="3591" selection-end="3591" vertical-scroll-proportion="0.0" />
+        <state line="117" column="105" selection-start="5717" selection-end="5717" vertical-scroll-proportion="-0.6785714">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wpc/base/db/DBManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="39" selection-start="2140" selection-end="2140" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="56" selection-start="3460" selection-end="3460" vertical-scroll-proportion="-0.5834933">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wpc/base/util/PageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="83" selection-start="576" selection-end="576" vertical-scroll-proportion="0.3022388" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wpc/base/system/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="74" selection-start="814" selection-end="814" vertical-scroll-proportion="0.431694" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user/student.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="52" selection-start="636" selection-end="636" vertical-scroll-proportion="93.39286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src2/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="798" selection-end="803" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wpc/base/system/action/UserAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="25" selection-start="850" selection-end="857" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user/users.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="65" selection-start="610" selection-end="610" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user/newUser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="105" selection-start="5717" selection-end="5717" vertical-scroll-proportion="0.0">
+        <state line="27" column="0" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wpc/base/system/model/UserSQLModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="60" selection-start="1648" selection-end="1648" vertical-scroll-proportion="0.0">
+        <state line="61" column="0" selection-start="1648" selection-end="1648" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wpc/base/login/model/MenuSQLModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="50" selection-start="1570" selection-end="1570" vertical-scroll-proportion="1.9240507">
+        <state line="27" column="33" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src2/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/student.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="34" selection-start="636" selection-end="636" vertical-scroll-proportion="-12.892858">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/students.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/bootstraptree/img/glyphicons-halflings.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/bootstraptree/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="39" selection-start="1573" selection-end="1573" vertical-scroll-proportion="-4.714286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/bootstraptree/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="36638" selection-start="36867" selection-end="36867" vertical-scroll-proportion="0.30039525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/bootstraptree/js/bootstraptree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="74" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/bootstraptree/css/bootstraptreestyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="64" selection-start="269" selection-end="269" vertical-scroll-proportion="0.33268481">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="114" selection-start="5726" selection-end="5745" vertical-scroll-proportion="-12.714286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wpc/base/system/action/MenuAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="56" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wpc/base/system/action/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="70" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/menus.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="44" selection-start="947" selection-end="947" vertical-scroll-proportion="0.58505154">
           <folding />
         </state>
       </provider>
