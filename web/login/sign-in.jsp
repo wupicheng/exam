@@ -1,129 +1,313 @@
-<!doctype html>
-<html lang="en"><head>
-    <meta charset="utf-8">
-    <title>Bootstrap Admin</title>
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<%--
+  Created by IntelliJ IDEA.
+  User: wupic
+  Date: 15-7-14
+  Time: 上午11:35
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>登录页面 - Bootstrap后台管理系统模版Ace下载</title>
+    <meta name="keywords" content="Bootstrap模版,Bootstrap模版下载,Bootstrap教程,Bootstrap中文" />
+    <meta name="description" content="站长素材提供Bootstrap模版,Bootstrap教程,Bootstrap中文翻译等相关Bootstrap插件下载" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href='http://fonts.useso.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="/public/boostrap/lib/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="/public/boostrap/lib/font-awesome/css/font-awesome.css">
+    <!-- basic styles -->
 
-    <script src="/public/boostrap/lib/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <link href="/public/ace/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/public/ace/assets/css/font-awesome.min.css" />
 
-    
-
-    <link rel="stylesheet" type="text/css" href="/public/boostrap/stylesheets/theme.css">
-    <link rel="stylesheet" type="text/css" href="/public/boostrap/stylesheets/premium.css">
-
-</head>
-<body class=" theme-blue">
-
-    <!-- Demo page code -->
-
-    <script type="text/javascript">
-        $(function() {
-            var match = document.cookie.match(new RegExp('color=([^;]+)'));
-            if(match) var color = match[1];
-            if(color) {
-                $('body').removeClass(function (index, css) {
-                    return (css.match (/\btheme-\S+/g) || []).join(' ')
-                })
-                $('body').addClass('theme-' + color);
-            }
-
-            $('[data-popover="true"]').popover({html: true});
-            
-        });
-    </script>
-    <style type="text/css">
-        #line-chart {
-            height:300px;
-            width:800px;
-            margin: 0px auto;
-            margin-top: 1em;
-        }
-        .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover { 
-            color: #fff;
-        }
-    </style>
-
-    <script type="text/javascript">
-        $(function() {
-            var uls = $('.sidebar-nav > ul > *').clone();
-            uls.addClass('visible-xs');
-            $('#main-menu').append(uls.clone());
-        });
-    </script>
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="/public/ace/assets/css/font-awesome-ie7.min.css" />
     <![endif]-->
 
-    <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-  
+    <!-- page specific plugin styles -->
 
-  <!--[if lt IE 7 ]> <body class="ie ie6"> <![endif]-->
-  <!--[if IE 7 ]> <body class="ie ie7 "> <![endif]-->
-  <!--[if IE 8 ]> <body class="ie ie8 "> <![endif]-->
-  <!--[if IE 9 ]> <body class="ie ie9 "> <![endif]-->
-  <!--[if (gt IE 9)|!(IE)]><!--> 
-   
-  <!--<![endif]-->
+    <!-- fonts -->
 
-    <div class="navbar navbar-default" role="navigation">
-        <div class="navbar-header">
-          <a class="" href="index.html"><span class="navbar-brand"><span class="fa fa-paper-plane"></span> 校园信息管理</span></a></div>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />
 
-        <div class="navbar-collapse collapse" style="height: 1px;">
+    <!-- ace styles -->
 
-        </div>
-      </div>
-    </div>
-    
+    <link rel="stylesheet" href="/public/ace/assets/css/ace.min.css" />
+    <link rel="stylesheet" href="/public/ace/assets/css/ace-rtl.min.css" />
 
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="/public/ace/assets/css/ace-ie.min.css" />
+    <![endif]-->
 
-        <div class="dialog">
-    <div class="panel panel-default">
-        <p class="panel-heading no-collapse">登陆</p>
-        <div class="panel-body">
-            <form action="/user/loginAction!login.do">
-                <div class="form-group">
-                    <label>用户名</label>
-                    <input type="text" class="form-control span12" name="user.user_name">
-                </div>
-                <div class="form-group">
-                <label>密码</label>
-                    <input type="password" class="form-controlspan12 form-control" name="user.user_password">
-                </div>
-                <%--<a href="index.html" class="btn btn-primary pull-right">登陆</a>--%>
-                <button type="submit" class="btn btn-primary pull-right">登陆</button>
-                <label class="remember-me"><input type="checkbox">记住密码</label>
-                <div class="clearfix"></div>
-            </form>
-        </div>
-    </div>
-    <p class="pull-right" style=""><a href="#" target="blank" style="font-size: .75em; margin-top: .25em;">Design by Portnine</a></p>
-    <p><a href="reset-password.html">忘记密码?</a></p>
+    <!-- inline styles related to this page -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+    <!--[if lt IE 9]>
+    <script src="/public/ace/assets/js/html5shiv.js"></script>
+    <script src="/public/ace/assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="login-layout">
+<div class="main-container">
+<div class="main-content">
+<div class="row">
+<div class="col-sm-10 col-sm-offset-1">
+<div class="login-container">
+<div class="center">
+    <h1>
+        <i class="icon-leaf green"></i>
+        <span class="red">Ace</span>
+        <span class="white">Application</span>
+    </h1>
+    <h4 class="blue">&copy; Company Name</h4>
 </div>
 
+<div class="space-6"></div>
 
+<div class="position-relative">
+    <div id="login-box" class="login-box visible widget-box no-border">
+        <div class="widget-body">
+            <div class="widget-main">
+                <h4 class="header blue lighter bigger">
+                    <i class="icon-coffee green"></i>
+                    Please Enter Your Information
+                </h4>
 
-    <script src="/public/boostrap/lib/bootstrap/js/bootstrap.js"></script>
-    <script type="text/javascript">
-        $("[rel=tooltip]").tooltip();
-        $(function() {
-            $('.demo-cancel-click').click(function(){return false;});
-        });
-    </script>
-    
-  
-</body></html>
+                <div class="space-6"></div>
+
+                <form  action="/user/loginAction!login.do">
+                    <fieldset>
+                        <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="text" class="form-control" name="user.user_name" placeholder="Username" />
+															<i class="icon-user"></i>
+														</span>
+                        </label>
+
+                        <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="password" name="user.user_password" class="form-control" placeholder="Password" />
+															<i class="icon-lock"></i>
+														</span>
+                        </label>
+
+                        <div class="space"></div>
+
+                        <div class="clearfix">
+                            <label class="inline">
+                                <input type="checkbox" class="ace" />
+                                <span class="lbl"> Remember Me</span>
+                            </label>
+
+                            <button type="submit" class="width-35 pull-right btn btn-sm btn-primary">
+                                <i class="icon-key"></i>
+                                Login
+                            </button>
+                        </div>
+
+                        <div class="space-4"></div>
+                    </fieldset>
+                </form>
+
+                <div class="social-or-login center">
+                    <span class="bigger-110">Or Login Using</span>
+                </div>
+
+                <div class="social-login center">
+                    <a class="btn btn-primary">
+                        <i class="icon-facebook"></i>
+                    </a>
+
+                    <a class="btn btn-info">
+                        <i class="icon-twitter"></i>
+                    </a>
+
+                    <a class="btn btn-danger">
+                        <i class="icon-google-plus"></i>
+                    </a>
+                </div>
+            </div><!-- /widget-main -->
+
+            <div class="toolbar clearfix">
+                <div>
+                    <a href="#" onclick="show_box('forgot-box'); return false;" class="forgot-password-link">
+                        <i class="icon-arrow-left"></i>
+                        I forgot my password
+                    </a>
+                </div>
+
+                <div>
+                    <a href="#" onclick="show_box('signup-box'); return false;" class="user-signup-link">
+                        I want to register
+                        <i class="icon-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div><!-- /widget-body -->
+    </div><!-- /login-box -->
+
+    <div id="forgot-box" class="forgot-box widget-box no-border">
+        <div class="widget-body">
+            <div class="widget-main">
+                <h4 class="header red lighter bigger">
+                    <i class="icon-key"></i>
+                    Retrieve Password
+                </h4>
+
+                <div class="space-6"></div>
+                <p>
+                    Enter your email and to receive instructions
+                </p>
+
+                <form>
+                    <fieldset>
+                        <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="email" class="form-control" placeholder="Email" />
+															<i class="icon-envelope"></i>
+														</span>
+                        </label>
+
+                        <div class="clearfix">
+                            <button type="button" class="width-35 pull-right btn btn-sm btn-danger">
+                                <i class="icon-lightbulb"></i>
+                                Send Me!
+                            </button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div><!-- /widget-main -->
+
+            <div class="toolbar center">
+                <a href="#" onclick="show_box('login-box'); return false;" class="back-to-login-link">
+                    Back to login
+                    <i class="icon-arrow-right"></i>
+                </a>
+            </div>
+        </div><!-- /widget-body -->
+    </div><!-- /forgot-box -->
+
+    <div id="signup-box" class="signup-box widget-box no-border">
+        <div class="widget-body">
+            <div class="widget-main">
+                <h4 class="header green lighter bigger">
+                    <i class="icon-group blue"></i>
+                    New User Registration
+                </h4>
+
+                <div class="space-6"></div>
+                <p> Enter your details to begin: </p>
+
+                <form>
+                    <fieldset>
+                        <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="email" class="form-control" placeholder="Email" />
+															<i class="icon-envelope"></i>
+														</span>
+                        </label>
+
+                        <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="text" class="form-control" placeholder="Username" />
+															<i class="icon-user"></i>
+														</span>
+                        </label>
+
+                        <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="password" class="form-control" placeholder="Password" />
+															<i class="icon-lock"></i>
+														</span>
+                        </label>
+
+                        <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="password" class="form-control" placeholder="Repeat password" />
+															<i class="icon-retweet"></i>
+														</span>
+                        </label>
+
+                        <label class="block">
+                            <input type="checkbox" class="ace" />
+														<span class="lbl">
+															I accept the
+															<a href="#">User Agreement</a>
+														</span>
+                        </label>
+
+                        <div class="space-24"></div>
+
+                        <div class="clearfix">
+                            <button type="reset" class="width-30 pull-left btn btn-sm">
+                                <i class="icon-refresh"></i>
+                                Reset
+                            </button>
+
+                            <button type="button" class="width-65 pull-right btn btn-sm btn-success">
+                                Register
+                                <i class="icon-arrow-right icon-on-right"></i>
+                            </button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="toolbar center">
+                <a href="#" onclick="show_box('login-box'); return false;" class="back-to-login-link">
+                    <i class="icon-arrow-left"></i>
+                    Back to login
+                </a>
+            </div>
+        </div><!-- /widget-body -->
+    </div><!-- /signup-box -->
+</div><!-- /position-relative -->
+</div>
+</div><!-- /.col -->
+</div><!-- /.row -->
+</div>
+</div><!-- /.main-container -->
+
+<!-- basic scripts -->
+
+<!--[if !IE]> -->
+
+<%--<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>--%>
+
+<!-- <![endif]-->
+
+<!--[if IE]>
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+<![endif]-->
+
+<!--[if !IE]> -->
+
+<script type="text/javascript">
+    window.jQuery || document.write("<script src='/public/ace/assets//js/jquery-2.0.3.min.js'>"+"<"+"/script>");
+</script>
+
+<!-- <![endif]-->
+
+<!--[if IE]>
+<script type="text/javascript">
+    window.jQuery || document.write("<script src='/public/ace/assets//js/jquery-1.10.2.min.js'>"+"<"+"/script>");
+</script>
+<![endif]-->
+
+<script type="text/javascript">
+    if("ontouchend" in document) document.write("<script src='/public/ace/assets//js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+</script>
+
+<!-- inline scripts related to this page -->
+
+<script type="text/javascript">
+    function show_box(id) {
+        jQuery('.widget-box.visible').removeClass('visible');
+        jQuery('#'+id).addClass('visible');
+    }
+</script>
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>

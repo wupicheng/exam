@@ -6,141 +6,19 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/avatars/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/avatars/avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/avatars/avatar1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/avatars/avatar2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/avatars/avatar3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/avatars/avatar4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/avatars/avatar5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/font/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/images/gallery/image-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/images/gallery/image-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/images/gallery/image-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/images/gallery/image-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/images/gallery/image-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/images/gallery/image-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/avatars/profile-pic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/images/gallery/thumb-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/images/gallery/thumb-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/images/gallery/thumb-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/images/gallery/thumb-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/images/gallery/thumb-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/images/gallery/thumb-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/avatars/user.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/x-editable/ace-editable.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/ace-elements.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/ace-extra.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/ace-ie.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/ace-rtl.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/ace-skins.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/ace.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/ace.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/additional-methods.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/blank.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/bootbox.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/bootstrap-colorpicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/date-time/bootstrap-datepicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/bootstrap-editable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/x-editable/bootstrap-editable.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/markdown/bootstrap-markdown.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/bootstrap-tag.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/bootstrap-timepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/date-time/bootstrap-timepicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/bootstrap-wysiwyg.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/buttons.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/calendar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/chosen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/chosen.jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/colorbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/colorpicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/daterangepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/date-time/daterangepicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/dropzone.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/dropzone.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/dropzone.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/elements.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/error-404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/error-500.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/excanvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/faq.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/font-awesome-ie7.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/form-elements.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/form-wizard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/fuelux/fuelux.spinner.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/fuelux/data/fuelux.tree-sampledata.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/fuelux/fuelux.tree.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/fuelux/fuelux.wizard.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/fullcalendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/fullcalendar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/gallery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/grid.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jqGrid/i18n/grid.locale-en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/inbox.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/invoice.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/jqgrid.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jquery-1.10.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jquery-2.0.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/jquery-ui-1.10.3.custom.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jquery-ui-1.10.3.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/jquery-ui-1.10.3.full.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jquery-ui-1.10.3.full.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/jquery-ui.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jquery.autosize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jquery.colorbox-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jquery.dataTables.bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jquery.dataTables.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jquery.easy-pie-chart.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/flot/jquery.flot.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/flot/jquery.flot.pie.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/flot/jquery.flot.resize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/jquery.gritter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jquery.gritter.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jquery.hotkeys.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jquery.inputlimiter.1.3.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jqGrid/jquery.jqGrid.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jquery.knob.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jquery.maskedinput.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jquery.mobile.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jquery.nestable.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jquery.slimscroll.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jquery.sparkline.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jquery.ui.touch-punch.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/jquery.validate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/markdown/markdown.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/date-time/moment.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/nestable-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/pricing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/profile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/select2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/select2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/tables.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/timeline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/treeview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/js/typeahead-bs2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/typography.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/assets/css/ui.jqgrid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/widgets.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/ace/wysiwyg.html" />
+    <list default="true" id="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" name="Default" comment="0.07acebootstrap框架">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login/sign-in.jsp" afterPath="$PROJECT_DIR$/web/login/sign-in.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\intelljideaproject\exam\web\index.jsp" afterPath="$PROJECT_DIR$/web/index_bak.jsp" />
+      <change type="MOVED" beforePath="D:\intelljideaproject\exam\web\login\sign-in.jsp" afterPath="$PROJECT_DIR$/web/login/sign-in_bak.jsp" />
     </list>
     <ignored path="exam.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.jsp" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436272227308" ignored="false" />
+    <file path="/index.jsp" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436846505703" ignored="false" />
     <file path="/fragment.java" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436343081466" ignored="false" />
     <file path="/web.xml" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436272142540" ignored="false" />
-    <file path="/Dummy.txt" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436777647527" ignored="false" />
+    <file path="/Dummy.txt" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436868039418" ignored="false" />
     <file path="$PROJECT_DIR$/../untitled4/untitled4.iml" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436262670443" ignored="false" />
     <file path="$PROJECT_DIR$/../untitled4/web/index.jsp" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436262683914" ignored="false" />
     <file path="$PROJECT_DIR$/../exam1/exam1.iml" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436271946246" ignored="false" />
@@ -164,6 +42,8 @@
     <file path="/MenuAction.java" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436770845830" ignored="false" />
     <file path="/menus.jsp" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436775111295" ignored="false" />
     <file path="/bootstraptreestyle.css" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436772407160" ignored="false" />
+    <file path="/sign-in2.jsp" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436845790233" ignored="false" />
+    <file path="/index2.jsp" changelist="3d54f9aa-d445-48a1-a6e3-3eaaaf8b239a" time="1436846138216" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,76 +104,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MenuAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wpc/base/system/action/MenuAction.java">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/public/ace/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="56" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0">
+            <state line="27" column="0" selection-start="0" selection-end="64340" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="392" column="59" selection-start="11368" selection-end="11368" vertical-scroll-proportion="0.3171472">
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1436846795440" expanded="true" signature="22038:22160" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menus.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/user/menus.jsp">
+      <file leaf-file-name="index_bak.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index_bak.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="52" selection-start="1163" selection-end="1163" vertical-scroll-proportion="-6.0641026">
+            <state line="145" column="54" selection-start="5668" selection-end="5685" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.flot.min.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/public/ace/assets/js/flot/jquery.flot.min.js">
+      <file leaf-file-name="sign-in.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/login/sign-in.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="57" selection-start="508" selection-end="508" vertical-scroll-proportion="0.2962963">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstraptree.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/public/bootstraptree/js/bootstraptree.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="74" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="student.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/user/student.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="34" selection-start="636" selection-end="636" vertical-scroll-proportion="-12.892858">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="students.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/user/students.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="114" selection-start="5726" selection-end="5745" vertical-scroll-proportion="-12.714286">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/public/bootstraptree/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="39" selection-start="1573" selection-end="1573" vertical-scroll-proportion="-4.714286">
-              <folding />
+            <state line="120" column="24" selection-start="4251" selection-end="4251" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1436845829604" expanded="true" signature="10433:10557" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -301,16 +147,45 @@
       <file leaf-file-name="struts.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src2/struts.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0">
+            <state line="14" column="65" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wpc/base/system/action/UserAction.java">
+      <file leaf-file-name="PrivalFilter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wpc/base/filter/PrivalFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="70" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0">
+            <state line="44" column="56" selection-start="1625" selection-end="1625" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sign-in_bak.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/login/sign-in_bak.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="104" column="109" selection-start="3944" selection-end="3969" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/public/ace/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="20" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1385713847302" expanded="true" signature="9056:9164" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/public/ace/profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="22" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -334,11 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/wpc/base/dao/BaseDao.java" />
-        <option value="$PROJECT_DIR$/src/com/wpc/base/login/action/LoginAction.java" />
-        <option value="$PROJECT_DIR$/src/com/wpc/base/util/RecordMappingToMap.java" />
-        <option value="$PROJECT_DIR$/src/com/wpc/base/db/DBManager.java" />
-        <option value="$PROJECT_DIR$/src/com/wpc/base/system/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/com/wpc/base/system/model/UserSQLModel.java" />
         <option value="$PROJECT_DIR$/src/com/wpc/base/system/action/UserAction.java" />
         <option value="$PROJECT_DIR$/web/user/users.jsp" />
@@ -350,6 +220,11 @@
         <option value="$PROJECT_DIR$/web/public/bootstraptree/js/bootstraptree.js" />
         <option value="$PROJECT_DIR$/web/public/bootstraptree/css/bootstraptreestyle.css" />
         <option value="$PROJECT_DIR$/web/user/menus.jsp" />
+        <option value="$PROJECT_DIR$/web/login/sign-in2.jsp" />
+        <option value="$PROJECT_DIR$/src/com/wpc/base/filter/PrivalFilter.java" />
+        <option value="$PROJECT_DIR$/web/login/sign-in.jsp" />
+        <option value="$PROJECT_DIR$/web/index2.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
       </list>
     </option>
   </component>
@@ -630,6 +505,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -648,266 +524,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1218,25 +837,28 @@
       <created>1436777654168</created>
       <updated>1436777654168</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="0.07acebootstrap框架">
+      <created>1436778639764</created>
+      <updated>1436778639764</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36134455" sideWeight="0.2682927" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15686275" sideWeight="0.2682927" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27030814" sideWeight="0.57101864" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2927171" sideWeight="0.57101864" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42436975" sideWeight="0.42898133" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6598726" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2857143" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1244,12 +866,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49297574" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19225252" sideWeight="0.72969186" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16642755" sideWeight="0.7072829" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2857143" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1295,7 +918,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.07实现树形菜单功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.07acebootstrap框架" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1316,6 +939,7 @@
     <MESSAGE value="0.05实现用户分页功能修复bug" />
     <MESSAGE value="0.06实现添加用户页面布局" />
     <MESSAGE value="0.07实现树形菜单功能" />
+    <MESSAGE value="0.07acebootstrap框架" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1325,86 +949,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/wpc/base/db/DBManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wpc/base/system/model/UserSQLModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="1648" selection-end="1648" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wpc/base/login/model/MenuSQLModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="33" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src2/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user/student.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="34" selection-start="636" selection-end="636" vertical-scroll-proportion="-12.892858">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user/students.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/public/bootstraptree/img/glyphicons-halflings.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/public/bootstraptree/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="39" selection-start="1573" selection-end="1573" vertical-scroll-proportion="-4.714286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/public/bootstraptree/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="36638" selection-start="36867" selection-end="36867" vertical-scroll-proportion="0.30039525">
-          <folding />
-        </state>
+        <state line="8" column="36638" selection-start="36867" selection-end="36867" vertical-scroll-proportion="0.30039525" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/public/bootstraptree/js/bootstraptree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="74" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="74" selection-start="675" selection-end="675" vertical-scroll-proportion="0.45043105" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/public/bootstraptree/css/bootstraptreestyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="64" selection-start="269" selection-end="269" vertical-scroll-proportion="0.33268481">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="114" selection-start="5726" selection-end="5745" vertical-scroll-proportion="-12.714286">
-          <folding />
-        </state>
+        <state line="9" column="64" selection-start="269" selection-end="269" vertical-scroll-proportion="0.33268481" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wpc/base/system/action/MenuAction.java">
@@ -1418,7 +975,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wpc/base/system/action/UserAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="70" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0">
+        <state line="31" column="70" selection-start="964" selection-end="964" vertical-scroll-proportion="0.63192904">
           <folding />
         </state>
       </provider>
@@ -1432,8 +989,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/public/ace/assets/js/flot/jquery.flot.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="57" selection-start="508" selection-end="508" vertical-scroll-proportion="0.2962963">
+        <state line="17" column="57" selection-start="508" selection-end="508" vertical-scroll-proportion="0.30155212" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/ace/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="0" selection-end="64340" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/ace/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="22" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/ace/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="20" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1385713847302" expanded="true" signature="9056:9164" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src2/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="65" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wpc/base/filter/PrivalFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="56" selection-start="1625" selection-end="1625" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login/sign-in_bak.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="109" selection-start="3944" selection-end="3969" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login/sign-in.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="24" selection-start="4251" selection-end="4251" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1436845829604" expanded="true" signature="10433:10557" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index_bak.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="54" selection-start="5668" selection-end="5685" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="392" column="59" selection-start="11368" selection-end="11368" vertical-scroll-proportion="0.3171472">
+          <folding>
+            <marker date="1436846795440" expanded="true" signature="22038:22160" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
