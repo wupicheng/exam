@@ -13,7 +13,7 @@ public class DBManager {
     static String driverName = "com.mysql.jdbc.Driver";
     static String url = "jdbc:mysql://203.195.207.109:3306/exam";
     static String user = "root";
-    static String pwd = "root";
+    static String pwd = "sa";
 
     static {
         try {
